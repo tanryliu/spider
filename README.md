@@ -1,8 +1,7 @@
-## python_spider
+﻿## python_spider
 
-我只是新手而已，欢迎大神指导。
-
-写来自用而已，如果感觉有用自行拿去修改。
+我也是新手而已，随手改改。
+修改自thompson1966/spider
 
 ----
 
