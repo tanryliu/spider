@@ -62,14 +62,6 @@ def get_article(url):
     img_all =[]
     html = open_url(url)
     soup = BeautifulSoup(html.text,'lxml')
-
-    #ruleYear = 'htm_data/\d\d/(.+?)\d\d/'
-    #ruleMonth = 'htm_data/\d\d/\d\d(.+?)/'
-    #ruleDay = 'htm_data/(.+?)/'
-    #Year = re.findall(ruleYear, url)
-    #Month = re.findall(ruleMonth, url)
-    #Day = re.findall(ruleDay, url)
-    #Date='20'+Year[0]+'-'+Month[0]
     
     post = soup.select('div.tipad')[1]
     post = post.get_text()
